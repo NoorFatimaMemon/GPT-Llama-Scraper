@@ -12,8 +12,8 @@ class Main():
 
     def main(self):
         main_url = "https://chatgpt.com/"
-        email = 'mohammaddanial767@gmail.com'
-        password = 'Family.123'
+        email = input('Enter the Email Address: ')
+        password = input('Enter the Password: ')
         session_url = 'https://chatgpt.com/g/g-HxPrv1p8v-code-tutor'
 
         logging.info("Starting browser instance 1")
